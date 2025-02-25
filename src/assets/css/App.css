@@ -1,0 +1,76 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos App.js 
+**********************************************/
+
+#control_panel, #gamezone
+{
+    margin: 20px 0 10px 0;
+  position: relative;
+  margin: 20px auto;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px 10px 20px;
+  background-color: #fff;
+  color: grey;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  width: 850px;
+  min-width: 450px;
+  border-radius: 10px;
+
+}
+
+
+#nivel {
+    width: 210px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: medium;
+    text-align: center;
+}
+
+#btPlay{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px, solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.small, .big, .medium
+{
+    display: grid;
+    padding: 10px;
+    gap:1px;
+}
+
+.small
+{
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.medium
+{
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.big
+{
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+}
+
+#imagens
+{
+    width: 50px;
+}
